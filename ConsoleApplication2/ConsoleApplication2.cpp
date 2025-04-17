@@ -21,7 +21,8 @@ public:
 class Cash : public Payment 
 {
 public:
-    void pay(double amount) override {
+    void pay(double amount) override 
+    {
         cout << "Оплата " << amount << " $ наличными.\n";
     }
 };
